@@ -45,6 +45,8 @@ void luoTili(Tili tiliLista[], int size){
     cout << endl;
     cout << "Tilin luonti" << endl;
 
+    // Käyttäjäsyötteen käsittely
+
     do {
         cout << endl;
         cout << "Nimi: " << endl;
@@ -92,6 +94,9 @@ void luoTili(Tili tiliLista[], int size){
         cout << "Tyyppi: " << tiliLista[paalistaIndeksi].getTyyppi() << endl;
         cout << endl;
         cout << "Varat: " << tiliLista[paalistaIndeksi].getSumma() << "$" << endl;
+        cout << endl;
+        cout << "Korko: " << tiliLista[paalistaIndeksi].getKorko() << "%" << endl;
+
     }
 
     else{
