@@ -1,4 +1,4 @@
-# pankkisovellusdemo
+# Pankkisovellusdemo
 
 Sovelluksessa navigoidaan näyttöohjeiden perusteella
 
